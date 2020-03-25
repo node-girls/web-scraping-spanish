@@ -1,0 +1,23 @@
+{
+  "name": "web-scraping-spanish",
+  "version": "1.0.0",
+  "description": "El web scraping consiste en navegar automáticamente una web y extraer de ella información. Esto puede ser muy útil y bastante frecuente, sin ir más lejos Google \"scrapea\" la red constantemente para que su buscador funcione corretamente.  Para ello utlizamos **\"bots\"** que son programas informáticos que efectúa automáticamente tareas repetitivas a través del navegador.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-girls/web-scraping-spanish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-girls/web-scraping-spanish/issues"
+  },
+  "homepage": "https://github.com/node-girls/web-scraping-spanish#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}

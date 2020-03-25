@@ -7,7 +7,7 @@ El objetivo de este taller es hacer una pequeña introducción a esta técnica. 
 
 ## Sigue los pasos:
 
-### 1. [Selectores]()
+### 1. [Selectores](https://github.com/node-girls/web-scraping-spanish/blob/master/1.Selectors/1.Selectors.md)
 
 En este parte vamos a utilizar los selectores para familiarizarnos con la obtención de información desde el DOM. Seguramente hay cosas que consideres obvias, pero nunca viene mal recordarlas. 
 
