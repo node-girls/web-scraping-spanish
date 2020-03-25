@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const fs = require('fs');
 
 let url =
   "https://www.iberlibro.com/servlet/SearchResults?cm_sp=SearchF-_-TopNavISS-_-Results&ds=20&kn=cantares%20gallegos&sts=t";
@@ -35,14 +36,16 @@ let url =
       } catch (exception) {
         console.log(exception);
       }
-      if (Object.keys(bookJson).length) { //Comprobar que el objeto no viene vacío
+      if (Object.keys(bookJson).length) {
+        //Comprobar que el objeto no viene vacío
         bookData.push(bookJson);
       }
     });
     return bookData;
   });
 
-  console.log(data);
+  fs.writeFile("data/libros.json", JSON.stringify(data), err => {
+    if (err) console.log(err);
+    console.log("Successfully Written to File.");
+  });
 })();
-
-
