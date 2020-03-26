@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/node-girls/web-scraping-spanish#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "puppeteer": "^2.1.1"
   }
 }

@@ -13,18 +13,19 @@ En este parte vamos a utilizar los selectores para familiarizarnos con la obtenc
 
 **¡¡ Al turrón !!**
 
-### 2. [Puppeteer]()
+### 2. [Puppeteer](https://github.com/node-girls/web-scraping-spanish/blob/master/2.Puppeteer/2.Puppeteer.md)
 
 Aquí, ya tenemos más enjundia y vamos a obtener la información sin que seamos nosotras las que manipulemos el DOM. Para ello vamos a utilizar Puppeteer.
 Puppeteer es una librería de NodeJS que permite controlar Chrome sobre el protocolo de DevTools; permitiéndonos, de ésta manera, realizar acciones sobre una web como si de una persona se tratase. 
 
 **¡¡ Rock and roll !!**
 
-### 3. [Mapa]()
+### 3. [Sirve tus datos](https://github.com/node-girls/web-scraping-spanish/blob/master/3.Server/3.Server.md)
 
-Nos ha parecido interesante que podamos hacer una visualización de todo el contenido que hemos "scrapeado" en los pasos anteriores. La mejor manera que se nos ha ocurrido es haciendo un mapa.
-Para ello nos vamos a servir del API para Javascript de [ArcGIS](https://developers.arcgis.com/javascript/)
+Nos ha parecido interesante que podamos "servir" todo el contenido que hemos "scrapeado" en los pasos anteriores. La mejor manera que se nos ha ocurrido es crear un WebService con ellos, para que luego puedas usarlos y crear tu propia aplicación.
 **¡¡ Despliega tu magia !!**
+
+<hr> 
 
 ## Recursos
 ### Webscrapping puppeteer
