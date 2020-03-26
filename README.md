@@ -23,6 +23,7 @@ Puppeteer es una librería de NodeJS que permite controlar Chrome sobre el proto
 ### 3. [Sirve tus datos](https://github.com/node-girls/web-scraping-spanish/blob/master/3.Server/3.Server.md)
 
 Nos ha parecido interesante que podamos "servir" todo el contenido que hemos "scrapeado" en los pasos anteriores. La mejor manera que se nos ha ocurrido es crear un WebService con ellos, para que luego puedas usarlos y crear tu propia aplicación.
+
 **¡¡ Despliega tu magia !!**
 
 <hr> 
@@ -30,13 +31,6 @@ Nos ha parecido interesante que podamos "servir" todo el contenido que hemos "sc
 ## Recursos
 ### Webscrapping puppeteer
 - https://webscraper.io/
+- https://pptr.dev/
 - https://medium.com/@e_mad_ehsan/getting-started-with-puppeteer-and-chrome-headless-for-web-scrapping-6bf5979dee3e
 https://medium.com/swlh/an-introduction-to-web-scraping-with-puppeteer-3d35a51fdca0
-- Bot Detection and Bot Protection: 
-  - https://www.perimeterx.com/
-  - https://www.scraperapi.com/
-
-### Mapa
-- http://geojsonlint.com/
-- https://developers.arcgis.com/javascript/
-- https://esri.github.io/esri-leaflet/
